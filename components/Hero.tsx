@@ -21,14 +21,14 @@ export default function Hero() {
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <div className="inline-block bg-amber-500/20 border border-amber-500/40 text-amber-400 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-          Fast Food • Pizza • Frites Maison
-        </div>
-
         <h1 className="text-5xl md:text-7xl font-black text-white mb-4 tracking-tight">
           MINOO{" "}
           <span className="text-amber-400">FOOD</span>
         </h1>
+
+        <div className="inline-block bg-amber-500/20 border border-amber-500/40 text-amber-400 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
+          Fast Food • Pizza • Frites Maison
+        </div>
 
         <p className="text-xl md:text-2xl text-stone-300 mb-3 font-light">
           Frais, savoureux, rapide.
