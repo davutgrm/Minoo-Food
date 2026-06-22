@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --amber: #f59e0b;
+  --amber-dark: #d97706;
+}
