@@ -82,15 +82,6 @@ export default function Contact() {
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-3">
                   <p className="font-bold text-stone-900">Horaires</p>
-                  <span
-                    className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
-                      open
-                        ? "bg-green-100 text-green-700"
-                        : "bg-red-100 text-red-700"
-                    }`}
-                  >
-                    {open ? "Ouvert maintenant" : "Fermé"}
-                  </span>
                 </div>
                 <div className="space-y-1.5">
                   {hours.map((h) => (
